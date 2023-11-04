@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a1001
+  description: remove-vm
+  annotations:
+    backstage.io/kubernetes-id: a1001
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/a1001
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
